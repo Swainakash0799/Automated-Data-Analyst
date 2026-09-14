@@ -46,13 +46,26 @@ def basic_eda(df):
     duplicates = int(df.duplicated().sum())
 
     # Statistics
-    statistics = df[numerical].describe().round(2)
+    statistics = {}
+
+    if numerical:
+        statistics = (
+            df[numerical]
+            .describe()
+            .round(2)
+            .to_dict()
+        )
 
     # Correlation
-    correlation = pd.DataFrame()
+    correlation = {}
 
     if len(numerical) > 1:
-        correlation = df[numerical].corr().round(2)
+        correlation = (
+            df[numerical]
+            .corr()
+            .round(2)
+            .to_dict()
+        )
 
     # Basic summary
     summary = {
@@ -62,8 +75,8 @@ def basic_eda(df):
         "categorical_columns": categorical,
         "missing_values": missing.to_dict(),
         "duplicate_rows": duplicates,
-        "statistics": statistics.to_dict(),
-        "correlation": correlation.to_dict(),
+        "statistics": statistics,
+        "correlation": correlation,
     }
 
     return summary
