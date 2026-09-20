@@ -610,5 +610,3 @@ Make your changes, test them locally, and open a pull request.
 ## ⭐ Support
 
 If you find this project useful, consider giving the repository a ⭐ on GitHub.
-
-**Built with Python, Pandas, Streamlit, LangChain, and Groq.**
