@@ -512,23 +512,23 @@ It is intentionally kept lightweight and modular so additional analytical capabi
 
 Planned improvements could include:
 
-* [ ] Automated data cleaning
+* [x] Automated data cleaning
 * [ ] Interactive Plotly dashboards
 * [ ] KPI generation
 * [ ] Advanced visualizations
 * [ ] Natural-language chart generation
 * [ ] Statistical hypothesis testing
-* [ ] Outlier detection
+* [x] Outlier detection
 * [ ] Time-series analysis
 * [ ] Forecasting
 * [ ] Automated business reports
-* [ ] Downloadable analysis reports
+* [x] Downloadable analysis reports
 * [ ] Conversation history
 * [ ] Multiple LLM provider support
 * [ ] Better prompt grounding
-* [ ] Dataset-aware question answering
+* [x] Dataset-aware question answering
 * [ ] Production deployment
-* [ ] Automated testing and CI/CD
+* [x] Automated testing and CI/CD
 
 ---
 
