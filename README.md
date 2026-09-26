@@ -8,11 +8,10 @@ Instead of manually inspecting rows, calculating statistics, checking missing va
 
 ---
 
-## 🌐 Live Demo: https://automated-data-analyst.onrender.com/
+🌐 **Live Demo:** https://automated-data-analyst.onrender.com/
 
 > **Note:** Since the application is hosted on Render's free tier, the first request may take 30–60 seconds while the server wakes up.
 
----
 ## 🚀 Features
 
 ### 📂 Dataset Upload
