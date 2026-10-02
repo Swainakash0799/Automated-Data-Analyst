@@ -14,7 +14,7 @@ Instead of manually inspecting rows, calculating statistics, checking missing va
 
 ## 🚀 Features
 
--📂 Dataset Upload
+📂 Dataset Upload
 
 Upload your own datasets directly through the Streamlit interface.
 
@@ -27,7 +27,7 @@ The application automatically loads the dataset using Pandas.
 
 ---
 
--🔎 Automated Exploratory Data Analysis
+🔎 Automated Exploratory Data Analysis
 
 Once a dataset is uploaded, the application automatically generates useful dataset information, including:
 
@@ -44,7 +44,7 @@ This provides an immediate overview of the dataset before asking questions.
 
 ---
 
--🤖 Natural Language Data Analysis
+🤖 Natural Language Data Analysis
 
 Users can ask questions about their dataset using normal language.
 
@@ -66,7 +66,7 @@ The application sends the question together with the calculated EDA results to t
 
 ---
 
--🧠 LLM-Powered Insights
+🧠 LLM-Powered Insights
 
 The project uses **LangChain + Groq** to provide natural-language interpretation of the calculated statistics.
 
@@ -81,7 +81,7 @@ This separates the **numerical computation layer** from the **natural-language i
 
 ---
 
--📊 Interactive Streamlit Interface
+📊 Interactive Streamlit Interface
 
 The application provides a simple interface for:
 
