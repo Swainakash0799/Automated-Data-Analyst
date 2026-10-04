@@ -2,20 +2,18 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.14-blue?style=for-the-badge&logo=python)
+![Python](https://img.shields.io/badge/Python-3.18-blue?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=for-the-badge&logo=streamlit)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas)
 ![LangChain](https://img.shields.io/badge/LangChain-LLM%20Integration-1C3C3C?style=for-the-badge&logo=langchain)
 
 **End-to-End AI-Powered Data Analytics Project using Python, Streamlit, LangChain & Groq**
 
-Upload datasets, automate data analysis, generate AI-powered insights, and build interactive visualizations for intelligent, data-driven decision making.
-
-</div>
-
 **Automated Data Analyst** is a Streamlit-based application that allows users to upload a dataset, automatically perform exploratory data analysis, and ask questions about the data using natural language.
 
 Instead of manually inspecting rows, calculating statistics, checking missing values, and identifying relationships between columns, the application combines **Pandas-based data analysis with an LLM-powered analysis layer** to provide a simple conversational experience.
+
+</div>
 
 ---
 
