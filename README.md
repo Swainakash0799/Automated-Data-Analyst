@@ -4,6 +4,12 @@
 
 **Automated Data Analyst** is a Streamlit-based application that allows users to upload a dataset, automatically perform exploratory data analysis, and ask questions about the data using natural language.
 
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.14-blue?style=for-the-badge&logo=python)
+
+</div>
+
 Instead of manually inspecting rows, calculating statistics, checking missing values, and identifying relationships between columns, the application combines **Pandas-based data analysis with an LLM-powered analysis layer** to provide a simple conversational experience.
 
 ---
